@@ -1,60 +1,111 @@
-
 :root {
---color-brand-light: rgba(129, 155, 87, 1);
---color-brand-dark: rgba(70, 89, 41, 1);
---color-primary-dark: rgba(49, 38, 26, 1);
---color-primary-light: rgba(250, 244, 234, 1);
+  --color-brand-light: rgba(129, 155, 87, 1);
+  --color-brand-dark: rgba(70, 89, 41, 1);
+  --color-primary-dark: rgba(49, 38, 26, 1);
+  --color-primary-light: rgba(250, 244, 234, 1);
 }
-
 
 /* base */
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+p {
+      font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 0;
 }
 
 body {
-    color: var(--color-primary-dark);
-    background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
 }
 /* links */
 .link {
-color: var(--color-primary-light);
+  color: var(--color-primary-light);
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
 }
 
 .link:hover {
-    color: var(--color-brand-light);
+  color: var(--color-brand-light);
 }
 /* buttons */
 .button {
-    background-color: var(--color-brand-light);
-    color: var(--color-primary-light);
-    border-radius: 8px;
-    border: 2px solid var(--color-brand-light);
-    width: 238px;
-    height: 59px;
-    cursor: pointer;
+  background-color: var(--color-brand-light);
+  color: var(--color-primary-light);
+  border-radius: 8px;
+  border: 2px solid var(--color-brand-light);
+  width: 238px;
+  height: 59px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
 }
 
 .button:hover {
-    background: transparent;
-    color: var(--color-brand-dark);
+  background: transparent;
+  color: var(--color-brand-dark);
 }
 /* hero section */
 .hero-title {
-    color: var(--color-primary-light);
+  color: var(--color-primary-light);
+  font-family: 'Poppins';
+  font-size: 128px;
+  line-height: 192px;
+  font-weight: 900;
 }
 
 .hero-title .accent {
-    color: var(--color-brand-light);
+  color: var(--color-brand-light);
 }
 
 /* advantages section */
 .advantages-list {
-    background-color: var(--color-brand-light);
-    color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  color: var(--color-primary-light);
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.section-title {
+  font-family: 'Poppins';
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 900;
 }
 
 .section-title .accent {
-    color: var(--color-brand-dark);
+  color: var(--color-brand-dark);
+}
+/* p */
+p .accent {
+    text-transform: uppercase;
+    color: var(--color-brand-light);
+}
+
+p .accent-min {
+    color: var(--color-brand-light);
+}
+
+.p-another-color {
+    color: var(--color-brand-light);
+}
+
+/* section chefs */
+
+.title-name {
+      font-family: 'Poppins';
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
 }
