@@ -23,7 +23,9 @@
               <li><a class="link" href="#contact-section"> Контакти </a></li>
             </ul>
           </nav>
-          <button class="button modal-btn-open" type="button">Замовити дзвінок</button>
+          <button class="button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
         </div>
       </div>
     </header>
@@ -73,7 +75,11 @@
       <section class="section" id="chefs-section">
         <div class="container">
           <h2 class="chefs-title section-title centered">
-            Наші найкращі <span class="accent"><br> шеф-кухарі</span>
+            Наші найкращі
+            <span class="accent"
+              ><br />
+              шеф-кухарі</span
+            >
           </h2>
           <ul class="chefs-list">
             <li class="chefs-item">
@@ -269,6 +275,50 @@
     <div class="backdrop">
       <div class="modal">
         <button class="modal-btn-close" type="button">x</button>
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <form name="contact-form" autocomplete="off" novalidate>
+          <div>
+            <label class="form-label" for="user-name">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Ім'я"
+              />
+            </label>
+          </div>
+
+          <div>
+            <label class="form-label" for="user-phone">
+              <input
+                class="form-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                placeholder="Телефон"
+              />
+            </label>
+          </div>
+
+          <div>
+            <label class="form-label" for="user-email">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Електронна пошта"
+              />
+            </label>
+          </div>
+          <button type="submit">Замовити дзвінок</button>
+          <p>
+            Натискаючи на кнопку я погоджуюсь з
+            <a href="#">політикою конфіденційності</a>
+          </p>
+        </form>
       </div>
     </div>
 
