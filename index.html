@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakery</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -141,6 +141,11 @@
             <ul class="formats-list">
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-img"
+                    src="./img/walrus-format.jpg"
+                    alt="Walrus"
+                  />
                   <h3 class="format-title" lang="en">Walrus</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -155,6 +160,11 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-img"
+                    src="./img/horseshoe-format.jpg"
+                    alt="Horseshoe"
+                  />
                   <h3 class="format-title" lang="en">Horseshoe</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -166,6 +176,12 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-img"
+                    src="./img/hendlebar-format.jpg"
+                    alt="Handlebar"
+                  />
+
                   <h3 class="format-title" lang="en">Handlebar</h3>
                   <div class="format-text">
                     <p>Площа: до 15 м2</p>
@@ -191,53 +207,58 @@
               <h2 class="contact-title section-title">
                 Приєднуйся до мережі пекарень
               </h2>
-              <p class="contact-text">Заповни форму, щоб ми звʼязались з тобою!</p>
-               <form name="contact-form" autocomplete="on" novalidate>
-          <div class="form-field">
-            <label class="form-label" for="user-name">
-              <input
-                class="form-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-                placeholder="Ім'я"
-              />
-            </label>
-          </div>
+              <p class="contact-text">
+                Заповни форму, щоб ми звʼязались з тобою!
+              </p>
+              <form name="contact-form" autocomplete="on" novalidate>
+                <div class="form-field">
+                  <label class="form-label" for="user-name">
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="user-name"
+                      id="user-name"
+                      placeholder="Ім'я"
+                    />
+                  </label>
+                </div>
 
-          <div class="form-field">
-            <label class="form-label" for="user-phone">
-              <input
-                class="form-input"
-                type="tel"
-                name="user-tel"
-                id="user-tel"
-                placeholder="Телефон"
-              />
-            </label>
-          </div>
+                <div class="form-field">
+                  <label class="form-label" for="user-phone">
+                    <input
+                      class="form-input"
+                      type="tel"
+                      name="user-tel"
+                      id="user-tel"
+                      placeholder="Телефон"
+                    />
+                  </label>
+                </div>
 
-          <div class="form-field">
-            <label class="form-label" for="user-email">
-              <input
-                class="form-input"
-                type="email"
-                name="user-email"
-                id="user-email"
-                placeholder="Електронна пошта"
-              />
-            </label>
-          </div>
-       
-            <button class="form-btn button" type="submit">
-              Замовити дзвінок
-            </button>
- 
-          <p class="form-police">
-            Натискаючи на кнопку я погоджуюсь <br> з 
-            <a href="#" class="form-police-link">політикою конфіденційності</a>
-          </p>
-        </form>
+                <div class="form-field">
+                  <label class="form-label" for="user-email">
+                    <input
+                      class="form-input"
+                      type="email"
+                      name="user-email"
+                      id="user-email"
+                      placeholder="Електронна пошта"
+                    />
+                  </label>
+                </div>
+
+                <button class="form-btn button" type="submit">
+                  Замовити дзвінок
+                </button>
+
+                <p class="form-police">
+                  Натискаючи на кнопку я погоджуюсь <br />
+                  з
+                  <a href="#" class="form-police-link"
+                    >політикою конфіденційності</a
+                  >
+                </p>
+              </form>
             </div>
             <iframe
               class="contact-map"
@@ -364,13 +385,14 @@
               />
             </label>
           </div>
-       
-            <button class="form-btn button" type="submit">
-              Замовити дзвінок
-            </button>
- 
+
+          <button class="form-btn button" type="submit">
+            Замовити дзвінок
+          </button>
+
           <p class="form-police">
-            Натискаючи на кнопку я погоджуюсь <br> з 
+            Натискаючи на кнопку я погоджуюсь <br />
+            з
             <a href="#" class="form-police-link">політикою конфіденційності</a>
           </p>
         </form>
