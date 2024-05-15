@@ -8,11 +8,36 @@
     position: relative;
 }
 
+.footer::before,
+.footer::after {
+    position: absolute;
+    content: '';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
 
+.footer::before {
+    background-image: url('../img/bread-smal.png');
+    width: 180px;
+    height: 120px;
+}
+
+.footer::after {
+    background-image: url('../img/bread-large.png');
+    width: 380px;
+    height: 190px;
+    right: 0;
+}
 
 .footer-container {
     display: flex;
     gap: 20px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 22px;
 }
 
 .footer-nav,
@@ -29,12 +54,18 @@
     flex-grow: 1;
 }
 
+
 .address-link {
     font-style: 16px;
     font-weight: 300;
     color: var(--color-primary-normal);
     text-decoration: none;
     transition: color 0.3s;
+        padding-bottom: 16px;
+}
+
+.link {
+    padding-bottom: 16px;
 }
 
 .address-link:hover {
