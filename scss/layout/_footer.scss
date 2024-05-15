@@ -8,27 +8,7 @@
     position: relative;
 }
 
-.footer::before,
-.footer::after {
-    position: absolute;
-    content: '';
-    background-size: 100%;
-    background-repeat: no-repeat;
-    bottom: 0;
-}
 
-.footer::before {
-    background-image: url('../img/bread-smal.png');
-    width: 180px;
-    height: 120px;
-}
-
-.footer::after {
-    background-image: url('../img/bread-large.png');
-    width: 380px;
-    height: 190px;
-    right: 0;
-}
 
 .footer-container {
     display: flex;

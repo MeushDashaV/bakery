@@ -3,36 +3,33 @@
 @import './utils/variables';
 @import './base';
 @import './utils/utils';
-
+@import './utils/texts';
 @import './utils/mixins';
 
+@import './components/backdrop';
 @import './components/links';
 @import './components/buttons';
-@import './components/modal-window';
-@import './components/forms';
+@import './components/form-terms';
+@import './components/chef-card';
 @import './components/carousel';
+@import './components/imput';
 
-
+@import './layout/modal-window';
+@import './layout/container';
+@import './layout/section';
 @import './layout/header';
 @import './layout/hero-section';
 @import './layout/advantages-section';
 @import './layout/tradition-section';
 @import './layout/chefs-section';
 @import './layout/formats-section';
+@import './layout/format-card';
 @import './layout/contact-section';
 @import './layout/footer';
 
 
 
-.section {
-    padding: 48px 0;
-}
-.container {
-    width: 100%;
-    max-width: 1288px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
+
 
 
 

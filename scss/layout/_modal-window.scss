@@ -1,0 +1,40 @@
+.modal {
+    width: 100%;
+    max-width: 880px;
+    height: 100%;
+    max-height: 880px;
+    background-color: var(--color-primary-normal);
+    border-radius: 32px;
+    position: relative;
+    padding: 128px;
+    overflow-y: auto;
+
+&__btn-close {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        color: var(--color-brand-dark);
+        margin-bottom: 72px;
+        text-align: center;
+    }
+
+    &__form-field {
+        margin-bottom: 32px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto 24px;
+    }
+}
+
